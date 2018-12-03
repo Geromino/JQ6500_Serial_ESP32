@@ -1,5 +1,7 @@
-JQ6500_Serial
+JQ6500_Serial ESP32
 =======================
+
+This library is modified for use with an ESP32 which does not implement SoftwareSerial.  It uses Hardware Serial which uses a different function signature.
 
 Simple to use Arduino library to interface to JQ6500 (JQ6500-28P, JQ6500-16P) Mp3 Player Modules
 
